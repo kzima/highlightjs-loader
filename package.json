@@ -1,0 +1,33 @@
+{
+  "name": "highlightjs-loader",
+  "description": "Highlights content inside the <code> tags with the language specified.",
+  "author": {
+    "name": "Kris Zima",
+    "email": "kris@mosquito.ie"
+  },
+  "version": "0.1.0",
+  "main": "./index.js",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "highlight.js": "^8.4.0"
+  },
+  "devDependencies": {
+    "html-loader": "^0.2.3",
+    "webpack": "^1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzima/highlightjs-loader.git"
+  },
+  "homepage": "https://github.com/kzima/highlightjs-loader",
+  "bugs": {
+    "url": "https://github.com/kzima/highlightjs-loader/issues"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html",
+    "highlight"
+  ],
+  "license": "MIT"
+}
