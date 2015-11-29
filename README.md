@@ -1,6 +1,5 @@
 # highlightjs-loader 
-Highlights content inside the <code> tags with the language specified in the class attribute. If no language is provided in the class, highlightjs-loader will attempt to auto detect.
-
+Highlights content inside the `code` tags with the language specified in the class attribute. If no language is provided in the class, highlightjs-loader will attempt to auto detect.
 
 ## Usage
 
