@@ -1,11 +1,11 @@
 {
+  "version": "0.1.1",
   "name": "highlightjs-loader",
   "description": "Highlights content inside the <code> tags with the language specified.",
   "author": {
     "name": "Kris Zima",
     "email": "kris@mosquito.ie"
   },
-  "version": "0.1.0",
   "main": "./index.js",
   "dependencies": {
     "cheerio": "^0.18.0",
