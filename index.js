@@ -8,7 +8,6 @@ module.exports = function(input) {
     var $ = cheerio.load(input, {decodeEntities: false});
     $('code').each(function (index, code) {
         var lang = $(code).attr('class');
-        console.log($(code).html())
         if (lang && hl.getLanguage(lang)) {
             $(code).html(hl.highlight(lang, $(code).html()).value);
         } else {
