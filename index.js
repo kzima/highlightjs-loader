@@ -1,7 +1,6 @@
 'use strict';
 var cheerio = require('cheerio');
 var hl = require('highlight.js');
-var he = require('he');
 
 module.exports = function(input) {
     this && this.cacheable && this.cacheable();
