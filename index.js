@@ -20,9 +20,9 @@ module.exports = function(input) {
     $('code').each(function (index, code) {
         var lang = $(code).attr('class');
         if (lang && hl.getLanguage(lang)) {
-            $(code).xml(hl.highlight(lang, $(code).html()).value);
+            $(code).html(hl.highlight(lang, $(code).html()).value);
         } else {
-            $(code).xml(hl.highlightAuto($(code).html()).value);
+            $(code).html(hl.highlightAuto($(code).html()).value);
         }
     })
     return $.html();

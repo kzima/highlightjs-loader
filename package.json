@@ -1,5 +1,5 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "name": "highlightjs-loader",
   "description": "Highlights content inside the <code> tags with the language specified.",
   "author": {
