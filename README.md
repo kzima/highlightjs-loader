@@ -19,6 +19,20 @@ in your app:
 var htmlSnippet = require('html!highlight./snippet.html');
 ```
 
+As of v0.2.0 you can specify parameter on the loader and can drop the `<code>` tag in your html, i.e. 
+
+```javascript
+var htmlSnippet = require('!highlightjs?lang=html./snippet.html');
+```
+
+```html
+<div 
+	id="someId"
+	class="someClass">
+	text
+</div>
+```
+
 ## License
 
 highlightjs-loader is available under MIT. See LICENSE for more details.
